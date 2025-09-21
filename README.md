@@ -28,7 +28,7 @@ The site demonstrates best practices in **HTML, CSS, and JavaScript** while ensu
 - ✅ WCAG-compliant color contrasts
 - ✅ Responsive design for desktop and mobile
 - ✅ Clean, professional layout with modern typography
-- ✅ Hosted on **Netlify**
+- ✅ Hosted on **Github pages**
 
 ---
 
@@ -45,8 +45,6 @@ The site demonstrates best practices in **HTML, CSS, and JavaScript** while ensu
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
-
-```bash
 git clone https://github.com/your-username/accessable-solutions.git
 cd accessable-solutions
 
@@ -61,14 +59,13 @@ If deploying yourself:
 
 Push your project to GitHub
 
-Connect the repository to Netlify
+Host with github pages
 
-Netlify will automatically deploy your site
+Github pages will automatically deploy your site
 
 🌐 Live Demo
 
-🔗 [AccessAble Solutions on Netlify](https://ohadha-bobly.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/) 
-
+🔗  https://ohadha-bobly.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/ 
 📷 Assets
 
 All images and media are stored in the Assets/ directory.
