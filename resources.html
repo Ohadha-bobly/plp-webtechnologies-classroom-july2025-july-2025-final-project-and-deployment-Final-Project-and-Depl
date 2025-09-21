@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources - AccessAble Solutions</title>
+    <meta
+      name="description"
+      content="Free accessibility resources, guides, and tools to help you create more inclusive digital experiences. Expert tips and best practices."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+      <div class="header-container">
+        <a href="index.html" class="logo"
+          ><img src="./Assets/logo.png" alt="AccessAble Solutions logo"
+        /></a>
+        <button class="nav-toggle">☰ Menu</button>
+        <nav id="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Added hero image below navigation -->
+      <div class="hero-image-container">
+        <img src="./Assets/bg-img.svg" alt="" class="hero-image" />
+      </div>
+      <!-- Page Header -->
+      <section class="page-header">
+        <h1 id="page-title">Accessibility Resources</h1>
+        <p class="page-subtitle">
+          Free guides, tools, and insights to help you build more accessible
+          digital experiences
+        </p>
+      </section>
+
+      <!-- Featured Resources -->
+      <section class="featured-resources">
+        <h2 id="featured-heading">Featured Resources</h2>
+        <div class="grid grid-2">
+          <article class="resource-card featured">
+            <div class="resource-meta">
+              <span class="resource-type">Complete Guide</span>
+              <time datetime="2024-01-15">January 15, 2024</time>
+            </div>
+            <h3 id="wcag-guide-title">
+              <a href="https://www.w3.org/TR/WCAG21/"
+                >The Complete WCAG 2.1 AA Compliance Guide</a
+              >
+            </h3>
+            <p class="resource-excerpt">
+              A comprehensive guide to understanding and implementing WCAG 2.1
+              AA standards. Includes practical examples, testing methods, and
+              common pitfalls to avoid.
+            </p>
+            <div class="resource-tags">
+              <span class="tag">WCAG</span>
+              <span class="tag">Compliance</span>
+              <span class="tag">Guidelines</span>
+            </div>
+          </article>
+
+          <article class="resource-card featured">
+            <div class="resource-meta">
+              <span class="resource-type">Checklist</span>
+              <time datetime="2024-02-01">February 1, 2024</time>
+            </div>
+            <h3 id="checklist-title">
+              <a href="#accessibility-checklist"
+                >Essential Accessibility Testing Checklist</a
+              >
+            </h3>
+            <p class="resource-excerpt">
+              A step-by-step checklist for testing your website's accessibility.
+              Perfect for developers, designers, and QA teams to ensure nothing
+              gets missed.
+            </p>
+            <div class="resource-tags">
+              <span class="tag">Testing</span>
+              <span class="tag">Checklist</span>
+              <span class="tag">QA</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Resource Categories -->
+      <section class="resource-categories">
+        <h2 id="categories-heading">Browse by Category</h2>
+        <div class="categories-grid">
+          <div class="category-card">
+            <h3>Getting Started</h3>
+            <p>
+              New to accessibility? Start here with fundamental concepts and
+              basic implementation guides.
+            </p>
+            <ul class="resource-list">
+              <li>
+                <a href="#intro-accessibility"
+                  >Introduction to Web Accessibility</a
+                >
+              </li>
+              <li>
+                <a href="#business-case">The Business Case for Accessibility</a>
+              </li>
+              <li>
+                <a href="#accessibility-myths"
+                  >Common Accessibility Myths Debunked</a
+                >
+              </li>
+              <li>
+                <a href="#first-steps"
+                  >First Steps: Making Your Site More Accessible</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="category-card">
+            <h3>Design & UX</h3>
+            <p>
+              Resources for designers and UX professionals to create inclusive
+              user experiences from the start.
+            </p>
+            <ul class="resource-list">
+              <li>
+                <a href="#inclusive-design">Principles of Inclusive Design</a>
+              </li>
+              <li>
+                <a href="#color-contrast">Color Contrast and Accessibility</a>
+              </li>
+              <li>
+                <a href="#typography">Accessible Typography Guidelines</a>
+              </li>
+              <li>
+                <a href="#user-research"
+                  >Conducting Accessibility User Research</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="category-card">
+            <h3>Development</h3>
+            <p>
+              Technical guides and code examples for developers implementing
+              accessible features.
+            </p>
+            <ul class="resource-list">
+              <li><a href="#semantic-html">Writing Semantic HTML</a></li>
+              <li><a href="#aria-guide">ARIA Labels and Roles Guide</a></li>
+              <li>
+                <a href="#keyboard-navigation"
+                  >Implementing Keyboard Navigation</a
+                >
+              </li>
+              <li>
+                <a href="#screen-reader-testing">Testing with Screen Readers</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="category-card">
+            <h3>Testing & Tools</h3>
+            <p>
+              Tools, techniques, and methodologies for testing and validating
+              accessibility.
+            </p>
+            <ul class="resource-list">
+              <li>
+                <a href="#automated-testing"
+                  >Automated Accessibility Testing Tools</a
+                >
+              </li>
+              <li><a href="#manual-testing">Manual Testing Techniques</a></li>
+              <li>
+                <a href="#browser-extensions">Essential Browser Extensions</a>
+              </li>
+              <li>
+                <a href="#testing-checklist">Complete Testing Checklist</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="category-card">
+            <h3>Legal & Compliance</h3>
+            <p>
+              Understanding legal requirements and compliance standards for
+              digital accessibility.
+            </p>
+            <ul class="resource-list">
+              <li><a href="#ada-compliance">ADA Compliance for Websites</a></li>
+              <li><a href="#section-508">Section 508 Requirements</a></li>
+              <li>
+                <a href="#international-standards"
+                  >International Accessibility Standards</a
+                >
+              </li>
+              <li><a href="#legal-risks">Understanding Legal Risks</a></li>
+            </ul>
+          </div>
+
+          <div class="category-card">
+            <h3>Content & Media</h3>
+            <p>
+              Making your content, images, videos, and documents accessible to
+              all users.
+            </p>
+            <ul class="resource-list">
+              <li><a href="#alt-text-guide">Writing Effective Alt Text</a></li>
+              <li>
+                <a href="#video-accessibility">Making Videos Accessible</a>
+              </li>
+              <li>
+                <a href="#document-accessibility"
+                  >Accessible Document Creation</a
+                >
+              </li>
+              <li><a href="#plain-language">Writing in Plain Language</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tools & Downloads -->
+      <section class="tools-downloads">
+        <h2 id="tools-heading">Free Tools & Downloads</h2>
+        <div class="tools-grid">
+          <div class="tool-card">
+            <h3>Accessibility Audit Template</h3>
+            <p>
+              A comprehensive template for conducting accessibility audits.
+              Includes evaluation criteria, scoring system, and report format.
+            </p>
+            <div class="tool-details">
+              <span class="file-type">PDF Template</span>
+              <span class="file-size">2.3 MB</span>
+            </div>
+            <a href="#audit-template" class="btn btn-secondary" download
+              >Download Template</a
+            >
+          </div>
+
+          <div class="tool-card">
+            <h3>Color Contrast Checker</h3>
+            <p>
+              Online tool to check color contrast ratios and ensure your color
+              combinations meet WCAG standards.
+            </p>
+            <div class="tool-details">
+              <span class="file-type">Web Tool</span>
+              <span class="file-size">Free to Use</span>
+            </div>
+            <a
+              href="https://webaim.org/resources/contrastchecker/"
+              class="btn btn-secondary"
+              >Use Tool</a
+            >
+          </div>
+
+          <div class="tool-card">
+            <h3>Accessibility Testing Checklist</h3>
+            <p>
+              A printable checklist covering all essential accessibility tests.
+              Perfect for QA teams and developers.
+            </p>
+            <div class="tool-details">
+              <span class="file-type">PDF Checklist</span>
+              <span class="file-size">1.1 MB</span>
+            </div>
+            <a href="#testing-checklist" class="btn btn-secondary" download
+              >Download Checklist</a
+            >
+          </div>
+
+          <div class="tool-card">
+            <h3>ARIA Quick Reference</h3>
+            <p>
+              A handy reference guide for ARIA attributes, roles, and properties
+              with usage examples.
+            </p>
+            <div class="tool-details">
+              <span class="file-type">PDF Reference</span>
+              <span class="file-size">1.8 MB</span>
+            </div>
+            <a href="#aria-reference" class="btn btn-secondary" download
+              >Download Reference</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Latest Articles -->
+      <section class="latest-articles">
+        <h2 id="articles-heading">Latest Articles & Insights</h2>
+        <div class="articles-grid">
+          <article class="article-card">
+            <div class="article-meta">
+              <time datetime="2024-02-15">February 15, 2024</time>
+              <span class="read-time">5 min read</span>
+            </div>
+            <h3 id="article-1-title">
+              <a href="#article-1"
+                >5 Common Accessibility Mistakes and How to Fix Them</a
+              >
+            </h3>
+            <p class="article-excerpt">
+              Learn about the most frequent accessibility issues we encounter in
+              audits and get practical solutions to address them quickly and
+              effectively.
+            </p>
+            <div class="article-author">
+              <span>By Sarah Chen</span>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-meta">
+              <time datetime="2024-02-10">February 10, 2024</time>
+              <span class="read-time">8 min read</span>
+            </div>
+            <h3 id="article-2-title">
+              <a href="#article-2"
+                >The Future of Accessibility: AI and Assistive Technology</a
+              >
+            </h3>
+            <p class="article-excerpt">
+              Explore how artificial intelligence is transforming assistive
+              technology and what it means for the future of digital
+              accessibility.
+            </p>
+            <div class="article-author">
+              <span>By Marcus Rodriguez</span>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-meta">
+              <time datetime="2024-02-05">February 5, 2024</time>
+              <span class="read-time">6 min read</span>
+            </div>
+            <h3 id="article-3-title">
+              <a href="#article-3"
+                >Building an Accessibility-First Design System</a
+              >
+            </h3>
+            <p class="article-excerpt">
+              A step-by-step guide to creating design systems that prioritize
+              accessibility from the ground up, with real-world examples and
+              best practices.
+            </p>
+            <div class="article-author">
+              <span>By Aisha Patel</span>
+            </div>
+          </article>
+
+          <article class="article-card">
+            <div class="article-meta">
+              <time datetime="2024-01-30">January 30, 2024</time>
+              <span class="read-time">7 min read</span>
+            </div>
+            <h3 id="article-4-title">
+              <a href="#article-4"
+                >Accessibility Testing: Beyond Automated Tools</a
+              >
+            </h3>
+            <p class="article-excerpt">
+              While automated tools are helpful, they only catch about 30% of
+              accessibility issues. Learn about manual testing techniques that
+              make the difference.
+            </p>
+            <div class="article-author">
+              <span>By James Thompson</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Newsletter Signup -->
+      <section class="newsletter">
+        <div class="newsletter-content">
+          <h2 id="newsletter-heading">
+            Stay Updated with Accessibility Insights
+          </h2>
+          <p>
+            Get the latest accessibility tips, resources, and industry updates
+            delivered to your inbox monthly. Join over 5,000 professionals who
+            trust our insights.
+          </p>
+          <form
+            class="newsletter-form"
+            action="https://formspree.io/f/mblkkvqe"
+            method="post"
+            novalidate
+          >
+            <div class="form-group">
+              <label for="newsletter-email" class="sr-only"
+                >Email address</label
+              >
+              <input
+                type="email"
+                id="newsletter-email"
+                name="email"
+                placeholder="Enter your email address"
+                required
+                id="email-help"
+              />
+              <div id="email-help" class="sr-only">
+                We'll send you monthly accessibility insights and never spam
+                you.
+              </div>
+            </div>
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+          <p class="newsletter-privacy">
+            <small
+              >We respect your privacy. Unsubscribe at any time. Read our
+              <a href="#privacy">Privacy Policy</a>.</small
+            >
+          </p>
+        </div>
+      </section>
+
+      <!-- Call to Action -->
+      <section class="cta">
+        <div class="cta-content">
+          <h2 id="cta-heading">Need Personalized Accessibility Guidance?</h2>
+          <p>
+            While our resources are comprehensive, every project is unique. Get
+            personalized advice and solutions tailored to your specific
+            accessibility challenges.
+          </p>
+          <div class="cta-actions">
+            <a href="contact.html" class="btn">Schedule a Consultation</a>
+            <a href="services.html" class="btn btn-secondary"
+              >Explore Our Services</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 AccessAble Solutions. All rights reserved. | Committed to
+        digital accessibility and inclusion.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

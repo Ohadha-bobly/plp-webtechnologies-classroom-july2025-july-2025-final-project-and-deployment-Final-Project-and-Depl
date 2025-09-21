@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - AccessAble Solutions</title>
+    <meta
+      name="description"
+      content="Get in touch with AccessAble Solutions for accessibility consulting, audits, and training. We're here to help make your digital products more inclusive."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+      <div class="header-container">
+        <a href="index.html" class="logo"
+          ><img src="./Assets/logo.png" alt="AccessAble Solutions logo"
+        /></a>
+        <button class="nav-toggle">☰ Menu</button>
+        <nav id="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- Page Header -->
+      <section class="page-head">
+        <h1 id="page-title">Contact Us</h1>
+        <p class="page-subtitle">
+          Ready to make your digital products more accessible? Let's start the
+          conversation.
+        </p>
+      </section>
+
+      <!-- Contact Methods -->
+      <section class="contact-methods">
+        <h2 id="methods-heading">Ways to Reach Us</h2>
+        <div class="methods-grid">
+          <div class="method-card">
+            <h3>Schedule a Consultation</h3>
+            <p>
+              Book a free 30-minute consultation to discuss your accessibility
+              needs and explore how we can help.
+            </p>
+            <a href="#consultation" class="btn">Schedule Now</a>
+          </div>
+
+          <div class="method-card">
+            <h3>Email Us Directly</h3>
+            <p>
+              Send us a detailed message about your project, and we'll get back
+              to you with personalized recommendations.
+            </p>
+            <div class="contact-info">
+              <p>
+                <strong>General Inquiries:</strong>
+                <a href="mailto:hello@accessablesolutions.com"
+                  >hello@accessablesolutions.com</a
+                >
+              </p>
+              <p>
+                <strong>Sales & Partnerships:</strong>
+                <a href="mailto:sales@accessablesolutions.com"
+                  >sales@accessablesolutions.com</a
+                >
+              </p>
+              <p>
+                <strong>Support:</strong>
+                <a href="mailto:support@accessablesolutions.com"
+                  >support@accessablesolutions.com</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="method-card">
+            <h3>Call Us</h3>
+            <p>
+              Prefer to talk? Give us a call during business hours for immediate
+              assistance.
+            </p>
+            <div class="contact-info">
+              <p>
+                <strong>Phone:</strong>
+                <a href="tel:+254 798 813 541">+254 798 813 541</a>
+              </p>
+              <p>
+                <strong>Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM EST
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section class="contact-form-section">
+        <h2 id="form-heading">Send Us a Message</h2>
+        <span class="required">Note: * Indicates required fields</span>
+        <div class="form-container">
+          <form
+            id="contact-form"
+            class="contact-form"
+            action="https://formspree.io/f/mblkkvqe"
+            method="POST"
+            novalidate
+          >
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">
+                  First Name
+                  <span class="required">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="first-name"
+                  name="firstName"
+                  autocomplete="given-name"
+                  required
+                />
+                <div id="first-name-error" class="error-message"></div>
+              </div>
+
+              <div class="form-group">
+                <label for="last-name">
+                  Last Name
+                  <span class="required">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="last-name"
+                  name="lastName"
+                  required
+                  autocomplete="family-name"
+                />
+                <div id="last-name-error" class="error-message"></div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">
+                Email Address
+                <span class="required">*</span>
+              </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="email"
+              />
+              <div id="email-help" class="field-help">
+                We'll use this to respond to your inquiry
+              </div>
+              <div id="email-error" class="error-message"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company/Organization</label>
+              <input
+                type="text"
+                id="company"
+                name="company"
+                id="company-help"
+              />
+              <div id="company-help" class="field-help">
+                Optional - helps us understand your context
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" id="phone-help" />
+              <div id="phone-help" class="field-help">
+                Optional - for follow-up calls if needed
+              </div>
+            </div>
+
+            <fieldset class="form-group">
+              <legend>
+                What type of help are you looking for?
+                <span class="required">*</span>
+              </legend>
+              <div class="checkbox-group" id="service-type-error">
+                <div class="checkbox-item">
+                  <input
+                    type="checkbox"
+                    id="audit"
+                    name="serviceType"
+                    value="audit"
+                  />
+                  <label for="audit">Accessibility Audit</label>
+                </div>
+                <div class="checkbox-item">
+                  <input
+                    type="checkbox"
+                    id="consulting"
+                    name="serviceType"
+                    value="consulting"
+                  />
+                  <label for="consulting">Ongoing Consulting</label>
+                </div>
+                <div class="checkbox-item">
+                  <input
+                    type="checkbox"
+                    id="training"
+                    name="serviceType"
+                    value="training"
+                  />
+                  <label for="training">Team Training</label>
+                </div>
+                <div class="checkbox-item">
+                  <input
+                    type="checkbox"
+                    id="design"
+                    name="serviceType"
+                    value="design"
+                  />
+                  <label for="design">Inclusive Design</label>
+                </div>
+                <div class="checkbox-item">
+                  <input
+                    type="checkbox"
+                    id="legal"
+                    name="serviceType"
+                    value="legal"
+                  />
+                  <label for="legal">Legal Compliance</label>
+                </div>
+                <div class="checkbox-item">
+                  <input
+                    type="checkbox"
+                    id="other"
+                    name="serviceType"
+                    value="other"
+                  />
+                  <label for="other">Other/Not Sure</label>
+                </div>
+              </div>
+              <div id="service-type-error" class="error-message"></div>
+            </fieldset>
+
+            <div class="form-group">
+              <label for="timeline">Project Timeline</label>
+              <select id="timeline" name="timeline" id="timeline-help">
+                <option value="">Select a timeline</option>
+                <option value="immediate">Immediate (within 2 weeks)</option>
+                <option value="month">Within a month</option>
+                <option value="quarter">Within 3 months</option>
+                <option value="flexible">Flexible timeline</option>
+                <option value="planning">Just planning ahead</option>
+              </select>
+              <div id="timeline-help" class="field-help">
+                Helps us prioritize and schedule appropriately
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="budget">Estimated Budget Range</label>
+              <select id="budget" name="budget" id="budget-help">
+                <option value="">Select a budget range</option>
+                <option value="under-5k">Under $5,000</option>
+                <option value="5k-15k">$5,000 - $15,000</option>
+                <option value="15k-50k">$15,000 - $50,000</option>
+                <option value="over-50k">Over $50,000</option>
+                <option value="discuss">Prefer to discuss</option>
+              </select>
+              <div id="budget-help" class="field-help">
+                Optional - helps us recommend the best approach
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="message">
+                Tell us about your project
+                <span class="required">*</span>
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+                id="message-error message-help"
+                placeholder="Please describe your current accessibility challenges, goals, or any specific questions you have. The more details you provide, the better we can help you."
+              ></textarea>
+              <div id="message-help" class="field-help">
+                Include details about your current situation, goals, and any
+                specific challenges
+              </div>
+              <div id="message-error" class="error-message"></div>
+            </div>
+
+            <div class="form-group">
+              <div class="checkbox-item">
+                <input
+                  type="checkbox"
+                  id="newsletter"
+                  name="newsletter"
+                  value="yes"
+                />
+                <label for="newsletter">
+                  I'd like to receive accessibility tips and updates via email
+                  (optional)
+                </label>
+              </div>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+              <button type="reset" class="btn btn-secondary">Clear Form</button>
+            </div>
+
+            <div id="form-message" class="form-message"></div>
+          </form>
+
+          <div class="form-sidebar">
+            <div class="sidebar-card">
+              <h3>What Happens Next?</h3>
+              <ol class="process-list">
+                <li>We'll review your message within 24 hours</li>
+                <li>A team member will reach out to discuss your needs</li>
+                <li>We'll provide a customized proposal and timeline</li>
+                <li>Once approved, we'll begin your accessibility journey</li>
+              </ol>
+            </div>
+
+            <div class="sidebar-card">
+              <h3>Free Resources</h3>
+              <p>
+                While you're here, check out our free accessibility resources:
+              </p>
+              <ul class="resource-links">
+                <li>
+                  <a href="resources.html#wcag-guide"
+                    >WCAG 2.1 Compliance Guide</a
+                  >
+                </li>
+                <li>
+                  <a href="resources.html#testing-checklist"
+                    >Accessibility Testing Checklist</a
+                  >
+                </li>
+                <li>
+                  <a href="resources.html#color-contrast"
+                    >Color Contrast Tool</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="sidebar-card">
+              <h3>Emergency Support</h3>
+              <p>Facing an urgent accessibility issue or legal concern?</p>
+              <p>
+                <strong>Call us directly:</strong>
+                <a href="tel:+254 798 813 541">+254 798 813 541</a>
+              </p>
+              <p>We offer expedited support for critical situations.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq-section">
+        <h2 id="faq-heading">Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <div class="faq-item">
+            <h3>How long does an accessibility audit take?</h3>
+            <p>
+              Most audits take 1-3 weeks depending on the size and complexity of
+              your digital properties. We'll provide a detailed timeline during
+              our initial consultation.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Do you work with small businesses?</h3>
+            <p>
+              We work with organizations of all sizes, from startups to Fortune
+              500 companies. We offer scalable solutions that fit different
+              budgets and needs.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Can you help with legal compliance?</h3>
+            <p>
+              Yes, our team includes legal compliance experts who can help you
+              understand ADA requirements, Section 508 standards, and
+              international accessibility laws.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>Do you offer remote training?</h3>
+            <p>
+              Yes, we offer both in-person and remote training sessions. Our
+              virtual workshops are interactive and just as effective as
+              in-person training.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>What's included in your ongoing consulting?</h3>
+            <p>
+              Our consulting packages include regular accessibility reviews,
+              development team support, policy development, and continuous
+              monitoring of your accessibility progress.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h3>How much do your services cost?</h3>
+            <p>
+              Costs vary based on scope and complexity. We offer free
+              consultations to understand your needs and provide accurate
+              pricing. Most audits start at $2,500.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2025 AccessAble Solutions. All rights reserved. | Committed to
+        digital accessibility and inclusion.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,90 +1,103 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# AccessAble Solutions 🌍♿
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
-
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
-
----
-
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
-
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+**AccessAble Solutions** is a professional consulting website dedicated to promoting digital accessibility and inclusive design.  
+The site demonstrates best practices in **HTML, CSS, and JavaScript** while ensuring compliance with **WCAG 2.1 AA** accessibility standards.
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## 📑 Project Structure
 
-Using your plan, begin building:
-
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+├── index.html # Landing page
+├── about.html # About Us page
+├── services.html # Services page
+├── resources.html # Resources page
+├── contact.html # Contact page
+├── Assets/ # Images and media
+│ └── (site images are here)
+├── style.css # Main stylesheet
+├── script.js # JavaScript functionality
+└── README.md # Project documentation
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## ✨ Features
 
-Before deployment, refactor your project to follow production-friendly practices:
-
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
-
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
-
----
-
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
+- ✅ Multi-page layout (not a single-page site)
+- ✅ Accessible navigation with clear link structure
+- ✅ Semantic HTML for screen readers
+- ✅ WCAG-compliant color contrasts
+- ✅ Responsive design for desktop and mobile
+- ✅ Clean, professional layout with modern typography
+- ✅ Hosted on **Netlify**
 
 ---
 
-## Deliverables
+## 🎨 Accessibility Considerations
 
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
+- High-contrast, accessible color palette
+- Visible focus indicators for interactive elements
+- Descriptive `alt` text for all images in the `Assets` folder
+- Proper use of headings (`h1`–`h3`) for structure
+- Form labels linked to inputs for assistive technology support
 
 ---
 
-## Outcome
+## 🚀 Getting Started
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/accessable-solutions.git
+cd accessable-solutions
+
+2. Open in Browser
+
+Simply open index.html in your web browser.
+
+3. Deployment
+
+This project is hosted on Netlify.
+If deploying yourself:
+
+Push your project to GitHub
+
+Connect the repository to Netlify
+
+Netlify will automatically deploy your site
+
+🌐 Live Demo
+
+🔗 AccessAble Solutions on Netlify
+
+📷 Assets
+
+All images and media are stored in the Assets/ directory.
+Make sure to optimize images for web to improve performance and accessibility.
+
+🛠️ Built With
+
+HTML5 – semantic markup
+
+CSS3 – responsive styling
+
+JavaScript (vanilla) – interactivity
+
+Netlify – deployment and hosting
+
+🤝 Contributing
+
+Contributions are welcome! Please fork the repo and submit a pull request for any improvements.
+
+📜 License
+
+This project is licensed under the MIT License.
+Feel free to use and adapt it for your own projects.
+
+👤 Author
+
+AccessAble Solutions
+Created by Geoffrey Ohadha Oduor
+📧 geoffreyohadha@gmail.com
+ | 📞 +254 798 813 541
+GitHub: https://github.com/Ohadha-bobly
+```
