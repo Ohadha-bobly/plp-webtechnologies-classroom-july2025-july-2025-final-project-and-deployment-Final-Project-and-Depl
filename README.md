@@ -67,7 +67,7 @@ Netlify will automatically deploy your site
 
 🌐 Live Demo
 
-🔗 AccessAble Solutions on Netlify
+🔗 [AccessAble Solutions on Netlify](https://ohadha-bobly.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/) 
 
 📷 Assets
 
